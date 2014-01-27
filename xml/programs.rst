@@ -3,13 +3,6 @@
 ====
 <programs>
 ====
-.. toctree::
-   :hidden:
-
-   programs/expansion
-   programs/game
-   programs/mod
-   programs/system
 
 ****
 Example

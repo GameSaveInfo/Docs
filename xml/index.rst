@@ -12,9 +12,9 @@ Now hold up! You don't have to learn the XML format to get games added to GameSa
    introduction
    creating_file
    programs
-   programs\expansion.rst
-   programs\game.rst
-   programs\mod.rst
-   programs\system.rst
-   programs\title.rst
-   programs\version.rst
+   programs\expansion
+   programs\game
+   programs\mod
+   programs\system
+   programs\title
+   programs\version

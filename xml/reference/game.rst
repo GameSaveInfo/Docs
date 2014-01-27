@@ -3,10 +3,27 @@
 <game>
 ====
 
+****
+Example
+****
 
+.. code-block:: xml
 
-   ``<game name="DeusEx">``
-   
+   <game name="DeusEx">
+     ...
+   </game>
+
+****
+Description
+****
+
+Each game is defined within a program element. There are four types of program elements:
+
+#. <game>
+#. <expansion>
+#. <mod>
+#. <system>
+
 The main purpose of this tag is to provide a unique internal name for the game. This unique name must follow these rules:
 
 #. No spaces, and no symbols. 
@@ -30,14 +47,31 @@ There is a completely optional "follows" attribute that can be added to any of t
 <game name="DeusExInvisibleWar" follows="DeusEx">
 It basically just indicates that the entry is somehow a follow-up (or sequel) to the indicated other entry. It's not parsed or used anywhere yet, but one day maybe.
 
-<game name="DeprecatedGame" deprecated="true">
-If a game is marked as deprecated, it means that the information provided is no longer considered correct. It's kept only for posterity and backwards-compatability.
+
+If a game is marked as deprecated, it means that the i. 
 
 Obviously your closing tag should match your opening tag. Other than this, the contained tags are all the same.
 
-***
-Child elements
-***
+****
+Attributes
+****
 
-:doc:`title`
+deprecated (boolean) (optional)
+   Marks a game as deprecated, meaning that the information provided is no longer considered correct. This allows the data to be kept for posterity and backwards-compatability.
+.. code-block:: xml
+
+   <game name="DeprecatedGame" deprecated="true">
+
+****
+Child elements
+****
+
+:doc:`title` (required)
    Defines the title for the game. This title will be used for all versions of the game, except for those that have an explicitily defined title.
+
+****
+Parent element
+****
+
+:doc:`programs`
+   Root element that contains all program-type elements.

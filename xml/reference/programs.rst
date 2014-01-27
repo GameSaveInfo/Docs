@@ -5,7 +5,9 @@
 ****
 Example
 ****
-      
+
+.. code-block:: xml  
+
   <programs majorVersion="2" minorVersion="0" revision="2" updated="2013-06-15T13:45:04" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="GameSaveInfo202.xsd">
     ... 
   </programs>
@@ -14,8 +16,7 @@ Example
 Description
 ****
 
-The root element for the GameSave.Info XML format is the "programs" element. There can only be one "programs" element per XML file.
-The root tag is called "programs". This is because a GameSave.Info XML file may contain data for more than just games, it can also contain definitions for game-related utilities.
+The root element for the GameSave.Info XML format is the "programs" element. There can only be one "programs" element per XML file. The name "programs" was chosen because an individual file can contain data on not just games, but mods and system tools.
 
 ****
 Attributes

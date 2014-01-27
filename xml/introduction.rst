@@ -6,7 +6,7 @@ Introduction
 
 GameSave.Info uses XML files checked into Github to describe where each game keeps its settings and saves. As you may or may not know, an XML file is little more than a specially typed text file, and can be created in programs as simple as notepad. All you do is fire up your favorite text editor and type the correct lines. Here's an excerpt from the d.xml file::
 
-   <game name="DeusEx">
+  <game name="DeusEx" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>Deus Ex</title>
     <version os="PS2" region="USA">
       <title>Deus Ex: The Conspiracy</title>
@@ -34,10 +34,11 @@ GameSave.Info uses XML files checked into Github to describe where each game kee
       <contributor>GameSave.Info</contributor>
     </version>
     <comment>The best game EVER!</comment>
-   </game>
+  </game>
 
 This looks more intimidating than it is. Let's go into it line-by-line, but first some terms:
 
+.. highlight:: xml
 ``<game name="DeusEx">``
 
 Element or Tag

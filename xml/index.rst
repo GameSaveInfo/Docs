@@ -11,14 +11,18 @@ Now hold up! You don't have to learn the XML format to get games added to GameSa
    introduction
    creating_file
    reference/programs
-   reference/game
-   reference/title
-   reference/version
-   reference/locations
-   reference/files
-   reference/identifier
-   reference/linkable
-   reference/ps_code
-   reference/contributor
-   reference/comment
-   reference/restore_comment
+   reference/programs/expansion
+   reference/programs/game
+   reference/programs/mod
+   reference/programs/system
+   reference/programs/title
+   reference/programs/version
+   
+   reference/programs/version/locations
+   reference/programs/version/files
+   reference/programs/version/identifier
+   reference/programs/version/linkable
+   reference/programs/version/ps_code
+   reference/programs/version/contributor
+   reference/programs/version/comment
+   reference/programs/version/restore_comment

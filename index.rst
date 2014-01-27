@@ -9,7 +9,7 @@ Welcome to GameSave.Info's documentation!
 Contents:
 
 .. toctree::
-   :maxdepth: 5
+   :maxdepth: 2
 
    api/index
    xml/index

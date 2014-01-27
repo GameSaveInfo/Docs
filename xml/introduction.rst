@@ -41,7 +41,7 @@ GameSave.Info uses XML files checked into Github to describe where each game kee
     <comment>The best game EVER!</comment>
   </game>
 
-This looks more intimidating than it is. Let's go into it line-by-line, but first some terms::
+This looks more intimidating than it is. Each tag is explained on its own page, but before you read those let's define some terms::
 
    <game name="DeusEx">
 
@@ -51,6 +51,6 @@ Element or Tag
 Attribute
    The word "name" in the above is an attribute. It's like a property of an element.
 
-**NOTE: IN PATHS AND FILENAMES LEAVE OFF ALL LEADING AND TRAILING SLASHES (\\ AND /)**
+NOTE: IN PATHS AND FILENAMES LEAVE OFF ALL LEADING AND TRAILING SLASHES (\\ AND /)
 
-**ANOTHER NOTE: There is a `schema file on GitHub <https://github.com/GameSaveInfo/Data/blob/master/GameSaveInfo202.xsd>`_\ . If you know what that means, use it.**
+ANOTHER NOTE: There is a `schema file on GitHub <https://github.com/GameSaveInfo/Data/blob/master/GameSaveInfo202.xsd>`_\ . If you know what that means, use it.

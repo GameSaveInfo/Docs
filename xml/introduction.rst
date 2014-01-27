@@ -4,9 +4,11 @@ Introduction
 
 .. highlight:: xml
 
-GameSave.Info uses XML files checked into Github to describe where each game keeps its settings and saves. As you may or may not know, an XML file is little more than a specially typed text file, and can be created in programs as simple as notepad. All you do is fire up your favorite text editor and type the correct lines. Here's an excerpt from the d.xml file::
+GameSave.Info uses XML files checked into Github to describe where each game keeps its settings and saves. As you may or may not know, an XML file is little more than a specially typed text file, and can be created in programs as simple as notepad. All you do is fire up your favorite text editor and type the correct lines. Here's an excerpt from the d.xml file:
 
-  <game name="DeusEx" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
+.. code-block:: xml
+   :linenos:
+   <game name="DeusEx" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>Deus Ex</title>
     <version os="PS2" region="USA">
       <title>Deus Ex: The Conspiracy</title>

@@ -7,7 +7,14 @@ Now hold up! You don't have to learn the XML format to get games added to GameSa
 .. toctree::
    :glob:
    :includehidden:
+   :titlesonly:
 
    introduction
    creating_file
-   reference/programs
+   programs
+   programs\expansion.rst
+   programs\game.rst
+   programs\mod.rst
+   programs\system.rst
+   programs\title.rst
+   programs\version.rst

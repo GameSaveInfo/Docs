@@ -10,6 +10,7 @@ Contents:
 
 .. toctree::
    :includehidden:
+   :titlesonly:
 
    api/index
    xml/index

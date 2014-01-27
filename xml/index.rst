@@ -10,7 +10,7 @@ Now hold up! You don't have to learn the XML format to get games added to GameSa
 
    introduction
    creating_file
-   reference/programs
+   reference/programs/index
    reference/programs/expansion
    reference/programs/game
    reference/programs/mod

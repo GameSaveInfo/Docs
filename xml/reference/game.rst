@@ -1,8 +1,9 @@
-====
+.. highlight:: xml
+
 <game>
 ====
 
-.. highlight:: xml
+
 
    ``<game name="DeusEx">``
    
@@ -33,3 +34,10 @@ It basically just indicates that the entry is somehow a follow-up (or sequel) to
 If a game is marked as deprecated, it means that the information provided is no longer considered correct. It's kept only for posterity and backwards-compatability.
 
 Obviously your closing tag should match your opening tag. Other than this, the contained tags are all the same.
+
+***
+Child elements
+***
+
+:doc:`title`
+   Defines the title for the game. This title will be used for all versions of the game, except for those that have an explicitily defined title.

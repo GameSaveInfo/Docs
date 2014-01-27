@@ -10,5 +10,5 @@ For the most part, you don't need to create an XML file from scratch. Just check
 
    <?xml version="1.0" encoding="UTF-8"?>
    
-The encoding attribute is important. Due to needing to support many non-ASCII characters, GameSave.Info XML files must all be encoded in UTF-8. With that added, you next have to add the root :ref:`programs element <programs-element>`\ .
+The encoding attribute is important. Due to needing to support many non-ASCII characters, GameSave.Info XML files must all be encoded in UTF-8. With that added, you next have to add the root :doc:`programs element <reference/programs>`\ .
    

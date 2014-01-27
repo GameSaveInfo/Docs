@@ -10,7 +10,14 @@ Now hold up! You don't have to learn the XML format to get games added to GameSa
 
    introduction
    creating_file
-   game_element
-   title_element
-   version_element
-   
+   game
+   title
+   version
+   locations
+   files
+   identifier
+   linkable
+   playstation
+   contributor
+   comment
+   restore_comment

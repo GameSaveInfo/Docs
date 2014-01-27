@@ -14,7 +14,7 @@ All GameSave.Info files must start with a standard XML declaration::
 The encoding attribute is important. Due to needing to support many non-ASCII characters, GameSave.Info XML files must all be encoded in UTF-8.
    
 .. highlight:: xml
-The root tag is called "programs". This is because a GameSave.Info XML file may contain data for mor than jsut games, it can also contain definitions for game-related utilities::
+The root tag is called "programs". This is because a GameSave.Info XML file may contain data for more than just games, it can also contain definitions for game-related utilities::
       
    <programs majorVersion="2" minorVersion="0" revision="2" updated="2013-06-15T13:45:04" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="GameSaveInfo202.xsd">
 

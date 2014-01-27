@@ -3,14 +3,15 @@ game Element
 ====
 
 .. highlight:: xml
+
    ``<game name="DeusEx">``
    
-The main purpose of this tag is to provide a unique internal name for the game. This unique name must contain follow these rules:
+The main purpose of this tag is to provide a unique internal name for the game. This unique name must follow these rules:
 
 #. No spaces, and no symbols. 
 #. Use `CamelCase <http://en.wikipedia.org/wiki/CamelCase>`_ for legibility. 
-#. Always use numbers instead of roman numerals, for sorting purposes. 
-#. All versions of a game go under the same game tag. For example, the Deus Ex game tag contains a version for both PC and PS2.
+#. Always use numbers instead of `roman numerals <http://en.wikipedia.org/wiki/Roman_numerals>`_ (or other representations of numbers), for sorting purposes. 
+#. All versions of a game go under the same game tag. For example, the Deus Ex game tag contains a version for both Windows and PlayStation 2.
 
 There are actually several variations on this tag, and you should try to use the one appropriate for your entry:
 

@@ -36,10 +36,9 @@ GameSave.Info uses XML files checked into Github to describe where each game kee
     <comment>The best game EVER!</comment>
   </game>
 
-This looks more intimidating than it is. Let's go into it line-by-line, but first some terms:
+This looks more intimidating than it is. Let's go into it line-by-line, but first some terms::
 
-.. highlight:: xml
-``<game name="DeusEx">``
+   <game name="DeusEx">
 
 Element or Tag
    That little bit of code is an element. Elements are surrounded by < and >. Some elements have an opening and closing, like ``<game></game>`` where ``</game>`` is the closing element. Anything between the opening and closing element are considered "children" of that element.

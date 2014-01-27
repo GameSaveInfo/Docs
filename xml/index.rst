@@ -9,3 +9,4 @@ Now hold up! You don't have to learn the XML format to get games added to GameSa
    :glob:
 
    introduction
+   creating_file

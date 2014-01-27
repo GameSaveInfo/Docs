@@ -1,5 +1,5 @@
 ====
-game Element
+game element
 ====
 
 .. highlight:: xml

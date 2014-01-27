@@ -6,10 +6,10 @@
 .. toctree::
    :hidden:
 
-   expansion
-   game
-   mod
-   system
+   programs/expansion
+   programs/game
+   programs/mod
+   programs/system
 
 ****
 Example
@@ -55,16 +55,16 @@ xsi:noNamespaceSchemaLocation (string) (required)
 Child Elements
 ****
 
-:doc:`game` (optional)
+:doc:`programs/game` (optional)
    Defines a game. 
 
-:doc:`mod` (optional)
+:doc:`programs/mod` (optional)
    Defines a mod.
 
-:doc:`expansion` (optional)
+:doc:`programs/expansion` (optional)
    Defines an expansion.
    
-:doc:`system` (optional)
+:doc:`programs/system` (optional)
    Defines a system application.
 
 NOTE: THE PROGRAMS ELEMENT REQUIRES AT LEAST ONE CHILD. CHILDREN CAN BE OF ANY TYPE LISTED HERE, AND IN ANY ORDER.

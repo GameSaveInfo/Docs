@@ -3,15 +3,18 @@ Creating the XML file
 ====
 
 .. highlight:: xml
+
 For the most part, you don't need to create an XML file from scratch. Just check out the data files from the repo and edit the ones already there. But, if you're curious as to the purpose of the root tags in the file, here's an explanation:
 
 All GameSave.Info files must start with a standard XML declaration::
 
    <?xml version="1.0" encoding="UTF-8"?>
    
+The encoding attribute is important. Due to needing to support many non-ASCII characters, GameSave.Info XML files must all be encoded in UTF-8.
+   
 The root tag is called "programs". This is because a GameSave.Info XML file may contain data for mor than jsut games, it can also contain definitions for game-related utilities.
       
-   <programs majorVersion="2" minorVersion="0" revision="2" updated="2013-06-15T13:45:04" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="GameSaveInfo202.xsd">
+   ``<programs majorVersion="2" minorVersion="0" revision="2" updated="2013-06-15T13:45:04" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="GameSaveInfo202.xsd">``
 
 There are a number of attributes:
 
@@ -35,4 +38,4 @@ xsi:noNamespaceSchemaLocation
    
 Aside from all that, the format requires that at least one game-type element (see next page) be defined per file, and that the file end with a closing programs tag:
 
-   </programs>
+   ``</programs>``

@@ -1,5 +1,5 @@
 ====
-version element
+<version>
 ====
 
 <version os="Windows">

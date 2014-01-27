@@ -1,5 +1,5 @@
 ====
-title element
+<title>
 ====
 
 <title>Deus Ex</title>

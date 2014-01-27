@@ -1,5 +1,5 @@
 ====
-linkable element
+<linkable />
 ====
 
 <linkable path="Save"/>

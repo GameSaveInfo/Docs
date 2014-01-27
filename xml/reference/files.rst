@@ -1,5 +1,5 @@
 ====
-files element
+<files>
 ====
 
 Now we get to the nitty-gritty of specifying which files are saves, settings, etc. After the locations element's closing tag, we can specify one or more "files" elements, specifying and sorting these files by type.

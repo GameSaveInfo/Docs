@@ -1,5 +1,5 @@
 ====
-comment element
+<comment>
 ====
 
 <comment>The best game EVER!</comment>

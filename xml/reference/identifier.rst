@@ -1,5 +1,5 @@
 ====
-identifier element
+<identifier />
 ====
 
 <identifier path="Save" />

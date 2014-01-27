@@ -1,5 +1,5 @@
 ====
-registry element
+<registry />
 ====
 
 

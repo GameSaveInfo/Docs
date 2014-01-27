@@ -1,5 +1,5 @@
 ====
-shortcut element
+<shortcut />
 ====
 
 <shortcut ev="startmenu" path="Programs\Deus Ex\Play Deus Ex.lnk" detract="System"/>

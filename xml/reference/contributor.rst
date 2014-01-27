@@ -1,5 +1,5 @@
 ====
-contributor element
+<contributor>
 ====
 
 <contributor>GameSave.Info</contributor>

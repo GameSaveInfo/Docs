@@ -1,5 +1,5 @@
 ====
-parent element
+<parent />
 ====
 
 Location Using Another Game

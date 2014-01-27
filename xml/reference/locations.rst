@@ -1,5 +1,5 @@
 ====
-locations element
+<locations>
 ====
 
 Games can keep their saves anywhere, so here we try to provide as many ways as possible of finding them. These locations are not the exact locations of the saves, but are instead roots used as the first step to find the saves. Why do we do it like this? Here's why:
@@ -20,6 +20,5 @@ The main point here is to not store the same information (the Save folder) more 
    locations\attributes
    locations\parent
    locations\path
-   locations\playstation
    locations\registry
    locations\shortcut

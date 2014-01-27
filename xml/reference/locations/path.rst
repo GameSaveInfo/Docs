@@ -1,5 +1,5 @@
 ===
-path element
+<path />
 ===
 
 Location Using A Path

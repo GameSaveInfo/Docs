@@ -1,5 +1,5 @@
 ====
-restore comment element
+<restore_comment>
 ====
 
 <restore_comment>Restoring saves for this game also requires restoring Game for Windows Account Data, which MASGAU automatically backs up in G4WAccountData.</restore_comment>

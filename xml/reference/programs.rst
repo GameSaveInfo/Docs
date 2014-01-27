@@ -1,17 +1,19 @@
-.. _programs-element:
-
+.. highlight:: xml
 <programs>
 ====
 
-.. highlight:: xml
 The root tag is called "programs". This is because a GameSave.Info XML file may contain data for more than just games, it can also contain definitions for game-related utilities::
       
-   <programs majorVersion="2" minorVersion="0" revision="2" updated="2013-06-15T13:45:04" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="GameSaveInfo202.xsd">
+  <programs majorVersion="2" minorVersion="0" revision="2" updated="2013-06-15T13:45:04" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="GameSaveInfo202.xsd">
+    ... 
+  </programs>
 
-There are a number of attributes:
+****
+Attributes
+****
 
 majorVersion
-   This defines the major version fo the XML file format. GameSave.Info and MASGAU both make use of this to determine whether they are compatible with a particular format of an XML file, and whether it is possible for it to automatically update the file to a newer format. Major version changes are defined as changes that drastically alter the entire format of the file.
+   This defines the major version for the XML file format. GameSave.Info and MASGAU both make use of this to determine whether they are compatible with a particular format of an XML file, and whether it is possible for it to automatically update the file to a newer format. Major version changes are defined as changes that drastically alter the entire format of the file.
    
 minorVersion
    This is used in the same manor as majorVersion. Minor version changes are defined as changes that do not affect the file as a whole, but still can impact compatability with older versions of GameSave.Info or MASGAU.
@@ -28,6 +30,13 @@ xmlns:xsi
 xsi:noNamespaceSchemaLocation
    This tells the XML parser what the filename of the XML Schema is.
    
-Aside from all that, the format requires that at least one game-type element (see next page) be defined per file, and that the file end with a closing programs tag:
+Aside from all that, the format requires that at least one :doc:`game-type element <games>` be defined per file, and that the file end with a closing programs tag::
 
-   ``</programs>``
+****
+Child Elements
+****
+
+:doc:`title`
+   Defines the title for the game. This title will be used for all versions of the game, except for those that have an explicitily defined title.
+
+   

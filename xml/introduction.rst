@@ -4,10 +4,16 @@ Introduction
 
 .. highlight:: xml
 
-GameSave.Info uses XML files checked into Github to describe where each game keeps its settings and saves. As you may or may not know, an XML file is little more than a specially typed text file, and can be created in programs as simple as notepad. All you do is fire up your favorite text editor and type the correct lines. Here's an excerpt from the d.xml file:
+.. role:: xml(code)
+   :language: xml
+
+
+
+GameSave.Info uses XML files checked into Github to describe where each game keeps its settings and saves. As you may or may not know, an XML file is little more than a specially typed text file, and can be created in programs as simple as notepad. All you do is fire up your favorite text editor and type the correct lines. Here's an excerpt from the d.xml file::
 
 .. code-block:: xml
    :linenos:
+   
    <game name="DeusEx" added="1955-11-05T00:00:00" updated="1955-11-05T00:00:00">
     <title>Deus Ex</title>
     <version os="PS2" region="USA">
@@ -43,7 +49,7 @@ This looks more intimidating than it is. Let's go into it line-by-line, but firs
    <game name="DeusEx">
 
 Element or Tag
-   That little bit of code is an element. Elements are surrounded by < and >. Some elements have an opening and closing, like ``<game></game>`` where ``</game>`` is the closing element. Anything between the opening and closing element are considered "children" of that element.
+   That little bit of code is an element. Elements are surrounded by < and >. Some elements have an opening and closing, like :xml:`<game></game>` where :xml:`</game>` is the closing element. Anything between the opening and closing element are considered "children" of that element.
 
 Attribute
    The word "name" in the above is an attribute. It's like a property of an element.

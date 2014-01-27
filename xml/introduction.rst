@@ -2,7 +2,7 @@
 Introduction
 ====
 
-GameSave.Info uses an XML file checked into Github to describe where each game keeps its settings and saves. As you may or may not know, an XML file is little more than a specially typed text file, and can be created in programs as simple as notepad. All you do is fire up your favorite text editor and type the correct lines. Here's an excerpt from the games.xml file::
+GameSave.Info uses XML files checked into Github to describe where each game keeps its settings and saves. As you may or may not know, an XML file is little more than a specially typed text file, and can be created in programs as simple as notepad. All you do is fire up your favorite text editor and type the correct lines. Here's an excerpt from the d.xml file::
 
    <game name="DeusEx">
     <title>Deus Ex</title>
@@ -39,9 +39,11 @@ This looks more intimidating than it is. Let's go into it line-by-line, but firs
 ``<game name="DeusEx">``
 
 Element or Tag
-That little bit of code is an element. Elements are surrounded by < and >.
+   That little bit of code is an element. Elements are surrounded by < and >. Some elements have an opening and closing, like ``<game></game>`` where ``</game>`` is the closing element. Anything between the opening and closing element are considered "children" of that element.
+
 Attribute
-The word "name" in the above is an attribute. It's like a property of an element.
+   The word "name" in the above is an attribute. It's like a property of an element.
+
 **NOTE: IN PATHS AND FILENAMES LEAVE OFF ALL LEADING AND TRAILING SLASHES ( \ AND / )**
 
-**ANOTHER NOTE: There is a schema file on GitHub. If you know what that means, use it.**
+**ANOTHER NOTE: There is a `schema file on GitHub <https://github.com/GameSaveInfo/Data/blob/master/GameSaveInfo202.xsd>`_. If you know what that means, use it.**

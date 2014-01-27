@@ -20,5 +20,6 @@ The main point here is to not store the same information (the Save folder) more 
    locations\attributes
    locations\parent
    locations\path
+   locations\playstation
    locations\registry
    locations\shortcut

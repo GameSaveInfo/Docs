@@ -7,3 +7,5 @@ Now hold up! You don't have to learn the XML format to get games added to GameSa
 .. toctree::
    :maxdepth: 2
    :glob:
+
+   introduction

@@ -2,6 +2,8 @@
 Introduction
 ====
 
+.. highlight:: xml
+
 GameSave.Info uses XML files checked into Github to describe where each game keeps its settings and saves. As you may or may not know, an XML file is little more than a specially typed text file, and can be created in programs as simple as notepad. All you do is fire up your favorite text editor and type the correct lines. Here's an excerpt from the d.xml file::
 
    <game name="DeusEx">
@@ -44,6 +46,6 @@ Element or Tag
 Attribute
    The word "name" in the above is an attribute. It's like a property of an element.
 
-**NOTE: IN PATHS AND FILENAMES LEAVE OFF ALL LEADING AND TRAILING SLASHES ( \ AND / )**
+**NOTE: IN PATHS AND FILENAMES LEAVE OFF ALL LEADING AND TRAILING SLASHES (\\ AND /)**
 
-**ANOTHER NOTE: There is a `schema file on GitHub <https://github.com/GameSaveInfo/Data/blob/master/GameSaveInfo202.xsd>`_. If you know what that means, use it.**
+**ANOTHER NOTE: There is a `schema file on GitHub <https://github.com/GameSaveInfo/Data/blob/master/GameSaveInfo202.xsd>`_\ . If you know what that means, use it.**
